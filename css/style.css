@@ -7,3 +7,39 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-image: url(../imgs/tile.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+}
+
+h2 {
+  color: #ffff37;
+  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.randomBtn {
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.character {
+  text-align: center;
+}
